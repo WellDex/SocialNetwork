@@ -1,0 +1,11 @@
+.friends h2{
+    color: white;
+    text-align: center;
+    font-weight: normal;
+}
+
+.friendElements{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
