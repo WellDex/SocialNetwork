@@ -1,0 +1,28 @@
+.pagination{
+    display: flex;
+    justify-content: flex-start;
+    list-style-type: none;
+    margin-right: 10px;
+    font-weight: bold;
+}
+.itemPagination{
+    border: 1px solid black;
+    border-right: none;
+    width: 30px;
+    height: 25px;
+    background-color: white;
+    text-align: center;
+}
+.itemPagination:nth-last-child(1){
+    border-right: 1px solid black;
+}
+.LinkPagination{
+    color: blue;
+    text-decoration: none;
+}
+.activePagination{
+    background-color: blue;
+}
+.activeLinkPagination{
+    color: white;
+}
