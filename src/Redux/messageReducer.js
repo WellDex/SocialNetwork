@@ -1,4 +1,4 @@
-const SEND_MESSAGE = 'ADD-MESSAGE';
+const SEND_MESSAGE = 'netWorkApi/message/ADD-MESSAGE';
 
 let initialState = {
     dialogs: [

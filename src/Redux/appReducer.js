@@ -1,12 +1,10 @@
 import {getAuthUserData} from "./authReducer";
 
-const INITIALIZED_SUCCESS = 'INITIALIZED_SUCCESS';
+const INITIALIZED_SUCCESS = 'netWorkApi/app/INITIALIZED_SUCCESS';
 
 let initialState = {
     initialized: false,
-    email: null,
-    login: null,
-    isAuth: false
+    globalError: null
 };
 
 const appReducer = (state = initialState, action) => {

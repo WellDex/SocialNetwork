@@ -1,7 +1,7 @@
 import React from 'react';
 import s from './Posts.module.css';
 import userPhoto from "../../../../assets/image/imgUser.png";
-import Preloader from "../../../common/preloader/preloader";
+import Preloader from "../../../common/Preloader/preloader";
 
 const Posts = (props) => {
     if (!props.profile)

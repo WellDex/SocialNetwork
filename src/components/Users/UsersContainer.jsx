@@ -6,7 +6,7 @@ import {
     unfollow
 } from "../../Redux/usersReducer";
 import Users from "./Users";
-import Preloader from "../common/preloader/preloader";
+import Preloader from "../common/Preloader/preloader";
 import {withAuthRedirect} from "../../hoc/withAuthRedirect";
 import {compose} from "redux";
 import {
@@ -39,7 +39,7 @@ class UsersAPIComponent extends React.Component {
                    follow={this.props.follow}
                    unfollow={this.props.unfollow}
                    followingInProgress={this.props.followingInProgress}
-            />;
+            />
         </>
     }
 }

@@ -4,7 +4,7 @@ import Posts from './Post/Posts';
 import {AddNewPostsFormReduxForm} from "./AddNewPostsForm/AddNewPostsForm";
 
 const MyPosts = React.memo((props) => {
-    let postsElement = props.posts.map(el => <Posts profile={props.profile} message={el.message}
+    let postsElement = props.posts.map(el => <Posts key={el.id} profile={props.profile} message={el.message}
                                                     likeCount={el.likeCount}/>);
     let onAddPost = (value) => {
         props.addPost(value.newPostText);

@@ -1,13 +1,13 @@
 import {usersAPI} from "../api/api";
 import {updateObjectInArray} from "../utils/objectHelpers";
 
-const FOLLOW = 'FOLLOW';
-const UNFOLLOW = 'UNFOLLOW';
-const SET_USERS = 'SET_USERS';
-const SET_CURRENT_PAGE = 'SET_CURRENT_PAGE';
-const SET_TOTAL_USERS_COUNT = 'SET_TOTAL_USERS_COUNT';
-const TOGGLE_IS_FETCHING = 'TOGGLE_IS_FETCHING';
-const TOGGLE_IS_FOLLOWING_IN_PROGRESS = 'TOGGLE_IS_FOLLOWING_IN_PROGRESS';
+const FOLLOW = 'netWorkApi/users/FOLLOW';
+const UNFOLLOW = 'netWorkApi/users/UNFOLLOW';
+const SET_USERS = 'netWorkApi/users/SET_USERS';
+const SET_CURRENT_PAGE = 'netWorkApi/users/SET_CURRENT_PAGE';
+const SET_TOTAL_USERS_COUNT = 'netWorkApi/users/SET_TOTAL_USERS_COUNT';
+const TOGGLE_IS_FETCHING = 'netWorkApi/users/TOGGLE_IS_FETCHING';
+const TOGGLE_IS_FOLLOWING_IN_PROGRESS = 'netWorkApi/users/TOGGLE_IS_FOLLOWING_IN_PROGRESS';
 
 let initialState = {
     users: [],
